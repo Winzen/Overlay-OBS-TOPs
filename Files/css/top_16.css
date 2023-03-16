@@ -1,0 +1,356 @@
+.winner_partidas{
+    position: absolute;
+    border: 1px solid transparent;
+    top: 8.3%;
+    left: 2.9%;
+    width: 15.67%;
+    height: 41.5%;
+    overflow: hidden;
+
+}
+.div_partida{
+    position: relative;
+    border: 1px solid transparent;
+    width: 100%;
+    height: 20%;
+    margin-bottom: 9.4%;
+    overflow: hidden;
+   
+}
+
+.slot_partida{
+    position: relative;
+    border: 1px solid transparent;
+    width: 100%;
+    height: 38%;
+    margin-bottom: 5.5%;
+    display: flex;
+}
+
+.jogador_name{
+    position: relative;
+    height: 100%;
+    width: 80%;
+    border: 1px solid transparent;
+}
+.score_partida{
+    position: relative;
+    height: 100%;
+    width: 20%;
+    border: 1px solid transparent;
+}
+
+.loser_side{
+    top: 59.35%;
+    width: 13.38%;
+    height: 36.8%;
+}
+
+.loser_side_round_2{
+    left: 24.95%;
+}
+
+.loser_partida{
+    height: 17.8%;
+    margin-bottom: 12.6%;
+}
+
+.intervalo_loser{
+    margin-bottom: 16%;
+}
+
+.pass_to_top8{
+    top: 10.75%;
+    width: 15.7%;
+    height: 36.8%;
+    left: 22.73%;
+}
+
+.top8_name{
+    height: 9.15%;
+    margin-bottom: 27%;
+}
+
+.pass_to_top8_losers{
+    top: 64.3%;
+    width: 13.4%;
+    height: 27.1%;
+    left: 46.9%;
+}
+
+.top8_partida_losers{
+    height: 24%;
+    margin-bottom: 57.3%;  
+}
+
+.top8_name_losers{
+    height: 42%;
+    margin-bottom: 3%;
+    border: 1px solid transparent;
+
+}
+
+/* Linhas */
+
+.div_linhas_winner{
+  
+    left: 18.65%;
+    width: 4%;
+    
+}
+
+.conjunto_linha{
+    
+    height: 17%;
+    margin-bottom: 55%;
+    
+}
+
+.conjunto_linha > div{
+    position: absolute;
+    border: 2px solid white;
+    box-shadow: rgb(79, 235, 7) 1px 0 10px;
+}
+
+.linha1_jogador{
+   
+    top: 20.5%;
+    width: 43%;
+    height: 0%;
+}
+.linha2_jogador{
+    top: 90.5%;
+    width: 45%;
+    height: 0%;
+}
+.traco1_jogador{
+    transform: rotate(90deg);
+    top: 37%;
+    left: 30%;
+    width: 25px;
+    height: 0%;
+}
+.traco2_jogador{
+    transform: rotate(90deg);
+    top: 70%;
+    left: 30%;
+    width: 25px;
+    height: 0%;
+}
+.linha_resultado{
+    top: 53%;
+    left: 50%;
+    width: 43%;
+    height: 0%;
+}
+
+/* Linhas Loser 1 */
+
+.div_linhas_loser{
+    top: 59.39%;
+    left: 16.35%;
+    width: 164px;
+    height: 396px;
+}
+
+.conjuto_linha_loser{
+    margin-bottom: 23%;
+}
+
+
+
+.conjuto_linha_loser_intervalo{
+    margin-bottom: 26%;
+}
+
+.linha_meio_loser1{
+    top: 51%;
+    left: 18%;
+    width: 98px;
+    height: 0%;
+}
+
+.traco_resultado{
+    top: 65%;
+    left: 74%;
+    width: 17px;
+    height: 0%;
+    transform: rotate(90deg);
+}
+.linha_resultado_loser{
+    top: 79%;
+    left: 79%;
+    width: 30px;
+    height: 0%;
+}
+
+.linha1_jogador_losers{
+    top: 20.5%;
+    width: 26px;
+    height: 0%;
+}
+
+.traco1_jogador_losers{
+    top: 40%;
+    left: 11%;
+    width: 17px;
+    height: 0%;
+    transform: rotate(90deg);
+}
+
+.linha2_jogador_losers{
+    top: 80.5%;
+    width: 26px;
+    height: 0%;
+}
+
+.traco2_jogador_losers{
+    top: 65%;
+    left: 11%;
+    width: 17px;
+    height: 0%;
+    transform: rotate(90deg);
+}
+
+/* Linhas Losers 2 */
+
+.div_linhas_loser2{
+    top: 59.39%;
+    left: 38.4%;
+    width: 163px;
+    height: 396px;
+
+}
+
+.conjuto_linha_loser2{
+    height: 44.5%;
+    margin-bottom: 26%;
+}
+
+.linha_meio_resultado_losers2{
+
+    top: 48.5%;
+    left: 48%;
+    width: 49;
+    height: 0%;
+    
+}
+
+.linha1_resultado_loser2{
+    top: 38%;
+    left: 79%;
+    width: 30px;
+    height: 0%;
+}
+
+.traco1_resultado_loser2{
+    top: 43%;
+    left: 74%;
+    width: 17px;
+    height: 0%;
+    transform: rotate(90deg);
+}
+
+.linha2_resultado_loser2{
+    top: 61%;
+    left: 79%;
+    width: 30px;
+    height: 0%;
+}
+
+.traco2_resultado_loser2{
+    top: 54%;
+    left: 74%;
+    width: 17px;
+    height: 0%;
+    transform: rotate(90deg);
+}
+
+.linha1_intermediario_loser2{
+    top: 19%;
+    left: 17%;
+    width: 48;
+    height: 0%;
+}
+
+.traco1_intermediario_loser2{
+    top: 33%;
+    left: 33%;
+    width: 50px;
+    height: 0%;
+    transform: rotate(90deg);
+}
+
+.linha2_intermediario_loser2{
+    top: 78%;
+    left: 17%;
+    width: 48;
+    height: 0%;
+}
+
+.traco2_intermediario_loser2{
+    top: 64%;
+    left: 33%;
+    width: 50px;
+    height: 0%;
+    transform: rotate(90deg);
+}
+/* Partida 1 */
+.linha1_jogador_losers_partida1{
+    top: 8%;
+    width: 26px;
+    height: 0%;
+}
+
+.traco1_jogador_losers_partida1{
+    top: 14%;
+    left: 11%;
+    width: 19px;
+    height: 0%;
+    transform: rotate(90deg);
+}
+
+.linha2_jogador_losers_partida1{
+    top: 30.5%;
+    width: 26px;
+    height: 0%;
+}
+
+.traco2_jogador_losers_partida1{
+    top: 24%;
+    left: 11%;
+    width: 19px;
+    height: 0%;
+    transform: rotate(90deg);
+}
+
+/* Partida 2 */
+
+.linha1_jogador_losers_partida2{
+    top: 67%;
+    width: 26px;
+    height: 0%;
+    
+}
+
+.traco1_jogador_losers_partida2{
+    top: 73%;
+    left: 11%;
+    width: 19px;
+    height: 0%;
+    transform: rotate(90deg);
+}
+
+.linha2_jogador_losers_partida2{
+    top: 90%;
+    width: 26px;
+    height: 0%;
+}
+
+.traco2_jogador_losers_partida2{
+    top: 84%;
+    left: 11%;
+    width: 19px;
+    height: 0%;
+    transform: rotate(90deg);
+}
